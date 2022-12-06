@@ -44,12 +44,15 @@ ul {
 li {
     margin: 16px 0;
 }
-blockquote {
+#blockquote {
     font-style: italic;
     max-width: 545px;
     margin: 0 auto 50px auto;
-    text-align: center;
+    text-align: left;
+    
+   
 }
+
 .LImageHighlighter {
     display: none !important;
     position: absolute !important;
@@ -66,13 +69,7 @@ blockquote {
     z-index: 99999999 !important;
     border-radius: 3px;
 }
-blockquote {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
+
 h1 {
     font-size: 4rem;
     margin-bottom: 0;
